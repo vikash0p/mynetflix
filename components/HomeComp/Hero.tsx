@@ -5,8 +5,8 @@ const Hero: React.FC = () => {
   return (
     <div className="w-full h-screen relative overflow-x-hidden">
       <iframe
-       className="w-full h-full object-cover object-center"
-        src="https://www.youtube.com/embed/j2CwTtriRUw?si=hX8QMTDPhN4Bvrd5"
+        className="aspect-video w-full h-full object-cover object-center"
+        src="https://www.youtube.com/embed/fCVm5U2ob8U?si=df3_kzZ4iD3KEroC&autoplay=1&mute=1"
         title="YouTube video player"
         frameBorder={0} // Changed to frameBorder and set as a prop
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
